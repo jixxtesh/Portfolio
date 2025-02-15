@@ -1,0 +1,41 @@
+{
+  "Projects": [
+    
+    {
+      "image": "expensio",
+      "title": "Expensio",
+      "desc": "Expensio is an expense tracking platform that simplifies financial management. It offers intuitive interfaces for logging expenses, categorizing transactions, and generating detailed reports. Users can easily track spending, set budgets, and access real-time analytics.",
+      "stack": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Tailwind_CSS"],
+      "url": "https://xpensio-eaoh.onrender.com"
+      
+    },
+
+
+    {
+      "image": "lofound",
+      "title": "LOfound",
+      "desc": "LOfound provide 5000 university students access to report their lost items and contact the founder through connectly.",
+      "stack": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Tailwind_CSS"],
+      "url": "https://xpensio-eaoh.onrender.com"
+      
+    },
+
+
+    {
+      "image": "connectly",
+      "title": "Conectly",
+      "desc": "It’s a social media app where users can follow/unfollow and create posts and like and comment on their friend’s post.",
+      "stack": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Tailwind_CSS"],
+      "url": "https://xpensio-eaoh.onrender.com"
+      
+    }
+
+    
+
+
+
+     
+
+    
+  ]
+}

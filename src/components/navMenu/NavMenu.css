@@ -1,0 +1,12 @@
+.menu-item {
+  margin: 4vh 8vw;
+  font-size: 4vh;
+}
+
+.menu-list-container {
+  border-bottom-right-radius: 9999px;
+}
+
+.close-btn {
+  box-shadow: 4px 4px 15px #83c3b3;
+}

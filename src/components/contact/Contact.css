@@ -1,0 +1,8 @@
+.contact-icon {
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.contact-icon:hover {
+  transform: scale(1.2);
+}

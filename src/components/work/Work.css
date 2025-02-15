@@ -1,0 +1,13 @@
+.project-wrapper {
+  justify-content: space-between;
+}
+
+.work-container {
+  background: linear-gradient(to top, black 50%, #1c3d35 100%);
+}
+
+@media (min-width: 768px) {
+  .work-container {
+    background: linear-gradient(to left, black 50%, #1c3d35 100%);
+  }
+}
