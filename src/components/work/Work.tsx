@@ -1,16 +1,17 @@
 import "./Work.css";
-import esg from "../../assets/images/esg.png";
-import forms from "../../assets/images/forms.png";
+import connectly from "../../assets/images/connectly.png";
+import lofound from "../../assets/images/lofound.png";
 import dashboard from "../../assets/images/dashboard.png";
 import weather from "../../assets/images/weather.png";
 import expensio from "../../assets/images/expensio.png";
+
 
 import data from "./work.json";
 import { Parallax } from "../../ui/parallax";
 
 let imageMap = {
-  esg,
-  forms,
+  connectly,
+  lofound,
   dashboard,
   weather,
   expensio,
