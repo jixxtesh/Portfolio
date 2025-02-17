@@ -70,8 +70,7 @@ export const Header = () => {
         I build beautiful products with the latest technologies and frameworks.
         <br />
         <br />
-        My projects reflected a blend of innovation and practicality,
-        consistently pushing the boundaries of what was possible in tech.
+        My projects reflect a blend of innovation and practicality.
         <br />
         <br /> I thrived on turning complex challenges into elegant,
         user-focused solutions that made a real difference.
