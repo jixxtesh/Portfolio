@@ -12,11 +12,10 @@
 
 
     {
-      "image": "lofound",
-      "title": "LOfound",
+      "image": "foundry",
+      "title": "Foundry",
       "desc": "LOfound provide 5000 university students access to report their lost items and contact the founder through connectly.",
-      "stack": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Tailwind_CSS"],
-      "url": "https://xpensio-eaoh.onrender.com"
+      "stack": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Tailwind_CSS"]
       
     },
 
@@ -25,8 +24,7 @@
       "image": "connectly",
       "title": "Conectly",
       "desc": "It’s a social media app where users can follow/unfollow and create posts and like and comment on their friend’s post.",
-      "stack": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Tailwind_CSS"],
-      "url": "https://xpensio-eaoh.onrender.com"
+      "stack": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Tailwind_CSS"]
       
     }
 

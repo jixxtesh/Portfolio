@@ -1,6 +1,6 @@
 import "./Work.css";
 import connectly from "../../assets/images/connectly.png";
-import lofound from "../../assets/images/lofound.png";
+import foundry from "../../assets/images/foundry.png";
 import dashboard from "../../assets/images/dashboard.png";
 import weather from "../../assets/images/weather.png";
 import expensio from "../../assets/images/expensio.png";
@@ -11,7 +11,7 @@ import { Parallax } from "../../ui/parallax";
 
 let imageMap = {
   connectly,
-  lofound,
+  foundry,
   dashboard,
   weather,
   expensio,
