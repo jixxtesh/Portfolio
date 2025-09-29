@@ -4,7 +4,7 @@ import Angular from "../assets/images/angular.png";
 import Ant_Design from "../assets/images/ant-design.png";
 import Express from "../assets/images/express.png";
 import TypeScript from "../assets/images/typescript-icon.svg";
-import NodeJs from "../assets/images/NodeJs.png";
+import Nodejs from "../assets/images/Nodejs.png";
 import NgRx from "../assets/images/ngrx.png";
 import React from "../assets/images/react.png";
 import React_Redux from "../assets/images/react-redux.png";
@@ -77,7 +77,7 @@ export const Card = ({
     MongoDB,
     React,
     TypeScript,
-    NodeJs,
+    Nodejs,
     NgRx,
     React_Redux,
     Tailwind_CSS,

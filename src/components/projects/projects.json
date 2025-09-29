@@ -6,14 +6,14 @@
       "desc": "loFOUND provides 5000 university students access to report their lost items and contact the founder.",
       "image": "lofound",
       "url": "https://lofound-jixx.vercel.app/",
-      "stack": ["MongoDB", "Express", "React", "NodeJs", "Tailwind_CSS"]
+      "stack": ["MongoDB", "Express", "React", "Nodejs", "Tailwind_CSS"]
     },
     {
       "title": "unDO",
       "desc": "unDO app is a simple and modern tool that helps you break bad habits by focusing on what you want to stop doing.",
       "image": "unDO",
       "url": "https://example.com",
-      "stack": ["MongoDB", "Express", "React", "NodeJs", "Tailwind_CSS"]
+      "stack": ["MongoDB", "Express", "React", "Nodejs", "Tailwind_CSS"]
     }
   ]
 }
