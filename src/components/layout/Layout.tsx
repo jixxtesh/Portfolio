@@ -4,7 +4,7 @@ import AboutMe from "../aboutMe/AboutMe";
 import Navbar from "../navbar/Navbar";
 import Welcome from "../welcome/Welcome";
 import Contact from "../contact/Contact";
-import Work from "../work/Work";
+import Projects from "../projects/projects";
 import NavMenu from "../navMenu/NavMenu";
 
 function Layout() {
@@ -36,8 +36,8 @@ function Layout() {
         <div id="about" className="w-full h-full md:h-screen">
           <AboutMe />
         </div>
-        <div id="work" className="w-full h-full">
-          <Work />
+        <div id="projects" className="w-full h-full">
+          <Projects />
         </div>
         <div id="contact" className="w-full h-full">
           <Contact />

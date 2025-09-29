@@ -4,7 +4,7 @@ import Angular from "../assets/images/angular.png";
 import Ant_Design from "../assets/images/ant-design.png";
 import Express from "../assets/images/express.png";
 import TypeScript from "../assets/images/typescript-icon.svg";
-import NodeJs from "../assets/images/nodejs.png";
+import NodeJs from "../assets/images/NodeJs.png";
 import NgRx from "../assets/images/ngrx.png";
 import React from "../assets/images/react.png";
 import React_Redux from "../assets/images/react-redux.png";
@@ -12,14 +12,13 @@ import Tailwind_CSS from "../assets/images/tailwind-css.png";
 import MongoDB from "../assets/images/mongodb.png";
 import Ag_Grid from "../assets/images/ag-grid.png";
 import Formly from "../assets/images/formly.png";
-import ECharts from "../assets/images/echarts.png";
 import Material_UI from "../assets/images/material-ui.png";
 import React_Hook_Forms from "../assets/images/rhf.png";
 
 import { useState } from "react";
 import { cn } from "../utils/cn";
 import { AnimatedTooltip } from "./animated-tooltip";
-type Card = {
+type CardProps = {
   src: string;
   title: string;
   category: string;
@@ -27,6 +26,7 @@ type Card = {
   desc: string;
   stack: string[];
 };
+
 export const Card = ({
   card,
   index,
@@ -34,14 +34,41 @@ export const Card = ({
   url = "",
   desc = "",
   stack = [],
+  onFlip, // <-- added
 }: {
-  card: Card;
+  card: CardProps;
   index: number;
   layout?: boolean;
   url?: string;
   desc?: string;
   stack?: string[];
+  onFlip?: () => void; // <-- added
 }) => {
+
+
+
+
+
+
+
+/*export const Card = ({
+  card,
+  index,
+  layout = false,
+  url = "",
+  desc = "",
+  stack = [],
+}: 
+{
+  card: CardProps;
+  index: number;
+  layout?: boolean;
+  url?: string;
+  desc?: string;
+  stack?: string[];
+}) => {*/
+
+
   const techImage = {
     Angular,
     Ag_Grid,
@@ -55,7 +82,6 @@ export const Card = ({
     React_Redux,
     Tailwind_CSS,
     Formly,
-    ECharts,
     Material_UI,
     React_Hook_Forms,
   };
@@ -69,8 +95,24 @@ export const Card = ({
   const [isFlipped, setFlipped] = useState(false);
 
   const handleFlip = () => {
+  setFlipped(!isFlipped);
+  if (onFlip) onFlip(); // <-- added
+};
+
+  
+  
+  
+  
+  
+  /*const handleFlip = () => {
     setFlipped(!isFlipped);
-  };
+  };*/
+
+
+
+
+
+
 
   const openProject = (url) => {
     if (url) {
@@ -93,7 +135,16 @@ export const Card = ({
         }}
         onClick={handleFlip}
 
-        className="rounded-3xl bg-transparent dark:bg-neutral-900 h-[25rem] w-[25rem] p-4 m-2 overflow-hidden flex flex-col items-start justify-start relative z-10"
+className="rounded-3xl bg-transparent dark:bg-neutral-900 
+h-[18rem] w-[18rem] md:h-[24rem] md:w-[24rem] 
+p-4 m-2 overflow-hidden flex flex-col items-start justify-start relative z-10"
+
+
+
+// className="rounded-3xl bg-transparent dark:bg-neutral-900 
+// h-[16rem] w-[16rem] md:h-[20rem] md:w-[20rem] 
+// p-4 m-2 overflow-hidden flex flex-col items-start justify-start relative z-10"
+        // className="rounded-3xl bg-transparent dark:bg-neutral-900 h-[25rem] w-[25rem] p-4 m-2 overflow-hidden flex flex-col items-start justify-start relative z-10"
 
 
         // className="rounded-3xl bg-transparent dark:bg-neutral-900 h-[25rem] w-[25rem] overflow-hidden flex flex-col items-start justify-start relative z-10"
@@ -117,7 +168,7 @@ export const Card = ({
                 layoutId={layout ? `title-${card.title}` : undefined}
                 className="text-white text-xl md:text-3xl font-semibold max-w-xs text-left [text-wrap:balance] font-sans mt-2"
               >
-                {card.title}
+                
               </motion.p>
             </div>
 
@@ -149,7 +200,7 @@ export const Card = ({
               </div>
               <motion.div
                 layoutId={layout ? `title-${card.title}` : undefined}
-                className="text-white text-md text-center font-medium w-full [text-wrap:balance] font-sans mt-2"
+                className="text-white text-sm md:text-base font-medium w-full [text-wrap:balance] font-sans mt-2"
               >
                 {card.desc}
               </motion.div>
@@ -162,7 +213,10 @@ export const Card = ({
                     <span className="absolute inset-0 overflow-hidden rounded-full">
                       <span className="px-8 z-60 py-2 absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
                     </span>
-                    <div className="px-8 z-60 py-2 text-lg relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 ring-1 ring-white/10 ">
+
+                    {/* <div className="px-4 z-60 py-1.5 text-sm relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 ring-1 ring-white/10 "> */}
+                     <div className="px-2 py-1 text-xs md:px-4 md:py-1.5 md:text-sm z-60 relative flex space-x-2 items-center rounded-full bg-zinc-950 ring-1 ring-white/10">
+
                       <span>{`Visit`}</span>
                       <svg
                         width="16"
@@ -180,14 +234,20 @@ export const Card = ({
                         ></path>
                       </svg>
                     </div>
-                    <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40"></span>
+                  { /* <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40"></span> */}
                   </button>
                 </div>
               ) : (
                 <></>
               )}
               <div className="relative flex row">
-                <AnimatedTooltip items={techStack} />
+                {/* <AnimatedTooltip items={techStack} /> */}
+                {/* <div className="relative flex row scale-90 md:scale-100"> */}
+                <div className="relative flex row scale-75 md:scale-90 lg:scale-100">
+
+  <AnimatedTooltip items={techStack} />
+</div>
+
               </div>
             </div>
           </div>

@@ -11,7 +11,7 @@ function Contact() {
         ?.open("https://www.linkedin.com/in/jitesh-saini-8219a7202/", "_blank")
         ?.focus();
     } else if (type === "github") {
-      window?.open("https://github.com/jitesh102001", "_blank")?.focus();
+      window?.open("https://github.com/jixxtesh", "_blank")?.focus();
     } else {
       window.location.href = `mailto:jitesh.saini@outlook.com`;
     }
@@ -20,11 +20,11 @@ function Contact() {
   return (
     <div className="w-full h-full overflow-hidden relative flex flex-col  items-center text-center px-8 md:px-20 py-[10em]">
       <div className="flex flex-col items-center w-full max-w-4xl text-center">
-        <div className="text-4xl md:text-6xl font-bold text-[#83C3B3]">
+        <div className="text-4xl md:text-6xl font-bold text-[B3]">
           Get in Touch
         </div>
         <div className="mt-20 text-base md:text-xl">
-          Thank you for your interest in my work! Whether you have a design
+          Thank you for your interest in my projects! Whether you have a design
           project in mind, or some questions, or just want to connect, I'd love
           to hear from you. Please feel free to reach out and I'll get back to
           you as soon as possible.
@@ -34,16 +34,19 @@ function Contact() {
             src={mail}
             className="contact-icon w-12 h-12 md:w-16 md:h-16"
             onClick={() => openSite("mail")}
+            alt=""
           />
           <img
             src={github}
             className="contact-icon w-12 h-12 md:w-16 md:h-16"
             onClick={() => openSite("github")}
+            alt=""
           />
           <img
             src={linkedin}
             className="contact-icon w-12 h-12 md:w-16 md:h-16 bg-white rounded-full"
             onClick={() => openSite("linkedin")}
+            alt=""
           />
         </div>
         <div className="mt-12 text-base md:text-lg">

@@ -1,0 +1,28 @@
+.project-wrapper {
+  justify-content: space-between;
+}
+
+.projects-container {
+  background: linear-gradient(to top, black 50%, #1c3d35 100%);
+}
+
+@media (min-width: 768px) {
+  .projects-container {
+    background: linear-gradient(to left, black 50%, #1c3d35 100%);
+  }
+} 
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px; /* spacing between logos */
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tech-stack img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+}
