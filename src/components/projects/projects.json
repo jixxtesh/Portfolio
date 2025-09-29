@@ -4,7 +4,7 @@
     {
       "title": "loFOUND",
       "desc": "loFOUND provides 5000 university students access to report their lost items and contact the founder.",
-      "image": "loFOUND",
+      "image": "lo-found",
       "url": "https://lofound-jixx.vercel.app/",
       "stack": ["MongoDB", "Express", "React", "NodeJs", "Tailwind_CSS"]
     },
