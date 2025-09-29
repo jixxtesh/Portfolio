@@ -1,5 +1,5 @@
 import "./projects.css";
-import lo-found from "../../assets/images/lo-found.png";
+import lofound from "../../assets/images/lo-found.png";
 import unDO from "../../assets/images/unDO.png";
 
 
@@ -7,7 +7,7 @@ import data from "./projects.json";
 import { Parallax } from "../../ui/parallax";
 
 let imageMap = {
-  lo-found,
+  lofound,
   unDO
 };
 
