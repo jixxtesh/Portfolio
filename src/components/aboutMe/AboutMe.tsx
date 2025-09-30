@@ -23,7 +23,7 @@ const AboutMe: React.FC = () => {
 <span className="text-xl text-white">
                <b> C++ <br/>
                 Javascript &nbsp; | &nbsp; React <br/>
-                 HTML &nbsp; | &nbsp; CSS &nbsp; | &nbsp; NodeJs &nbsp; | &nbsp; TypeScript <br />
+                 HTML &nbsp; | &nbsp; CSS &nbsp; | &nbsp; Nodejs &nbsp; | &nbsp; TypeScript <br />
                 SQL &nbsp; | &nbsp; MongoDB</b>
               </span>
 

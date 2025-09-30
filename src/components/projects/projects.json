@@ -12,7 +12,7 @@
       "title": "unDO",
       "desc": "unDO app is a simple and modern tool that helps you break bad habits by focusing on what you want to stop doing.",
       "image": "unDO",
-      "url": "https://example.com",
+      "url": "https://undo-jixx.vercel.app/",
       "stack": ["MongoDB", "Express", "React", "Nodejs", "Tailwind_CSS"]
     }
   ]
