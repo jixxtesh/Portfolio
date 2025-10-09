@@ -18,10 +18,6 @@ const projectList = data.Projects.map((ew) => ({
 
 function projects() {
   return (
-    // <div className="pt-20 md:pt-20 md:pb-20 projects-container md:pl-[5em]">
-    // <div className="pt-20 md:pt-20 md:pb-20 projects-container px-4 md:px-12">
-    //<div className="pt-20 md:pt-20 md:pb-20 projects-container px-6 md:px-16 lg:px-24">
-    //<div className="relative pt-20 md:pt-20 md:pb-20 projects-container md:pl-[5em]">
     <div className="pt-20 md:pt-20 md:pb-20 projects-container pl-6 md:pl-[5em]">
 
 
