@@ -13,9 +13,9 @@ import MongoDB from "../assets/images/mongodb.png";
 import Ag_Grid from "../assets/images/ag-grid.png";
 import Formly from "../assets/images/formly.png";
 import Material_UI from "../assets/images/material-ui.png";
-//import TypeScript from "../assets/images/typescript.png";
 import Vite from "../assets/images/Vite.jpeg";
-import Lucide from "../assets/images/Lucide.png";
+//import TypeScript from "../assets/images/typescript.png";
+//import Lucide from "../assets/images/Lucide.png";
 
 
 import { useState } from "react";
