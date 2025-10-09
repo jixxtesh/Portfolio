@@ -86,8 +86,7 @@ export const Card = ({
     Formly,
     Material_UI,
     TypeScript,
-    Vite,
-    Lucide
+    Vite
   };
 
   const techStack = card.stack.map((es, index) => ({
