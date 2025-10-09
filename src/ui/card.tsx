@@ -13,9 +13,9 @@ import MongoDB from "../assets/images/mongodb.png";
 import Ag_Grid from "../assets/images/ag-grid.png";
 import Formly from "../assets/images/formly.png";
 import Material_UI from "../assets/images/material-ui.png";
-import typescript from "../assets/images/typescript.png";
-import vite from "../assets/images/vite.jpeg";
-import lucide from "../assets/images/lucide.png";
+//import TypeScript from "../assets/images/typescript.png";
+import Vite from "../assets/images/Vite.jpeg";
+import Lucide from "../assets/images/Lucide.png";
 
 
 import { useState } from "react";
@@ -79,16 +79,15 @@ export const Card = ({
     Express,
     MongoDB,
     React,
-    TypeScript,
     Nodejs,
     NgRx,
     React_Redux,
     Tailwind_CSS,
     Formly,
     Material_UI,
-    typescript,
-    vite,
-    lucide
+    TypeScript,
+    Vite,
+    Lucide
   };
 
   const techStack = card.stack.map((es, index) => ({
