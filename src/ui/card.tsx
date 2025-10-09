@@ -13,7 +13,10 @@ import MongoDB from "../assets/images/mongodb.png";
 import Ag_Grid from "../assets/images/ag-grid.png";
 import Formly from "../assets/images/formly.png";
 import Material_UI from "../assets/images/material-ui.png";
-import React_Hook_Forms from "../assets/images/rhf.png";
+import typescript from "../assets/images/typescript.png";
+import vite from "../assets/images/vite.jpeg";
+import lucide from "../assets/images/lucide.png";
+
 
 import { useState } from "react";
 import { cn } from "../utils/cn";
@@ -83,7 +86,9 @@ export const Card = ({
     Tailwind_CSS,
     Formly,
     Material_UI,
-    React_Hook_Forms,
+    typescript,
+    vite,
+    lucide
   };
 
   const techStack = card.stack.map((es, index) => ({
