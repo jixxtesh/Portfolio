@@ -36,7 +36,7 @@ const AboutMe: React.FC = () => {
         </div>
         <div className="flex items-center md:w-[45%] h-full flex-wrap md:mt-0 text-center md:text-left p-10 md:pl-[2em] mb-[2em] md:mb-0">
           <div className="text-6xl mb-[5rem] font-bold text-[#83C3B3] text-center w-full md:pr-[2em]">
-            About Myself
+            About Me
           </div>
           <div className="text-white text-xl">
             
