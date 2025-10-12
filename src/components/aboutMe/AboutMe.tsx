@@ -6,7 +6,7 @@ import "./AboutMe.css";
 
 const AboutMe: React.FC = () => {
   const about = `A passionate and innovative full-stack developer.`;
-  const secondary = `With a degree in Electronics and Communication Engineering, I offer the perfect blend of analytical precision and technical expertise.`;
+  const secondary = `With a degree in Electronics & Communication Engineering, I offer the perfect blend of analytical precision and technical expertise.`;
 
   return (
     <div className="w-full flex justify-center items-center h-full md:pl-[5em]">
