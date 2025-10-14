@@ -48,7 +48,7 @@ const Welcome: React.FC = () => {
   <span className="text-[#83C3B3]"> & </span>
   <span className="text-[#83C3B3]"> scalable interfaces </span>
   </b>
-  that users love to play with.
+  that users love to interact with.
 </div>
       </div>
 
