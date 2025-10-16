@@ -20,7 +20,7 @@ function projects() {
   return (
     <div className="pt-20 md:pt-20 md:pb-20 projects-container pl-6 md:pl-[5em]">
 
-
+{/* <div className="pt-20 md:pt-20 md:pb-20 projects-container pl-6 md:pl-[5em]"></div> */}
 
 
       <Parallax products={projectList} />
