@@ -51,6 +51,9 @@ function Contact() {
         </div>
         <div className="mt-12 text-base md:text-lg">
           Living, learning, & leveling up one day at a time.
+
+{/*           
+           Leveling up one day at a time. */}
         </div>
       </div>
       <BackgroundBeams className="absolute" />
