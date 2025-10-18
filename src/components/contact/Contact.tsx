@@ -25,7 +25,7 @@ function Contact() {
         </div>
         <div className="mt-20 text-base md:text-xl">
           Thank you for your interest in my projects! Whether you have a design
-          project in mind, or some questions, or just want to connect, I'd love
+          project in mind, or some questions, or just want to connect, I would love
           to hear from you. Please feel free to reach out and I'll get back to
           you as soon as possible.
         </div>
