@@ -28,6 +28,7 @@ function Contact() {
           project in mind, or some questions, or just want to connect, I would love
           to hear from you. Please feel free to reach out and I'll get back to
           you as soon as possible.
+          {/* Jitesh*/}
           
         </div>
         <div className="mt-20 flex z-10 h-20 space-x-4 md:space-x-8">
