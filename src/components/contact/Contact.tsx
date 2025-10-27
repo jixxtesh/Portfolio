@@ -16,6 +16,8 @@ function Contact() {
       window.location.href = `mailto:jitesh.saini@outlook.com`;
     }
   }
+  //jitesh
+  //Saini
   return (
     <div className="w-full h-full overflow-hidden relative flex flex-col  items-center text-center px-8 md:px-20 py-[10em]">
       <div className="flex flex-col items-center w-full max-w-4xl text-center">
