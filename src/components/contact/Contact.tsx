@@ -4,7 +4,7 @@ import github from "../../assets/images/github-mark-white.png";
 import mail from "../../assets/images/noun-mail-560844.svg";
 import linkedin from "../../assets/images/linkedIn-white.png";
 import "./Contact.css";
-//Contact
+//Contact Section
 function Contact() {
   function openSite(type: string) {
     if (type === "linkedin") {
