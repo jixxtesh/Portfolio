@@ -1,9 +1,9 @@
 import { BackgroundBeams } from "../../ui/background-beams";
 import github from "../../assets/images/github-mark-white.png";
+//import github from "../../assets/images/githubwebdwnldgooglecom.png";
 import mail from "../../assets/images/noun-mail-560844.svg";
 import linkedin from "../../assets/images/linkedIn-white.png";
 import "./Contact.css";
-
 function Contact() {
   function openSite(type: string) {
     if (type === "linkedin") {
@@ -16,8 +16,11 @@ function Contact() {
       window.location.href = `mailto:jitesh.saini@outlook.com`;
     }
   }
+<<<<<<< HEAD
   //jitesh
   //Saini
+=======
+>>>>>>> 98b2bd10fe987ee8d921a45499da2b8373e29c97
   return (
     <div className="w-full h-full overflow-hidden relative flex flex-col  items-center text-center px-8 md:px-20 py-[10em]">
       <div className="flex flex-col items-center w-full max-w-4xl text-center">
