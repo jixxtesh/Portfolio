@@ -16,11 +16,7 @@ function Contact() {
       window.location.href = `mailto:jitesh.saini@outlook.com`;
     }
   }
-<<<<<<< HEAD
-  //jitesh
-  //Saini
-=======
->>>>>>> 98b2bd10fe987ee8d921a45499da2b8373e29c97
+//jitesh
   return (
     <div className="w-full h-full overflow-hidden relative flex flex-col  items-center text-center px-8 md:px-20 py-[10em]">
       <div className="flex flex-col items-center w-full max-w-4xl text-center">
