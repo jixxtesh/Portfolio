@@ -1,6 +1,5 @@
 import { BackgroundBeams } from "../../ui/background-beams";
 import github from "../../assets/images/github-mark-white.png";
-//import github from "../../assets/images/githubwebdwnldgooglecom.png";
 import mail from "../../assets/images/noun-mail-560844.svg";
 import linkedin from "../../assets/images/linkedIn-white.png";
 import "./Contact.css";
