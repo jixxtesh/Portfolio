@@ -57,4 +57,3 @@ function Contact() {
 }
 
 export default Contact;
-//Check on vercel
