@@ -55,6 +55,13 @@ function Contact() {
     </div>
   );
 }
-export default Contact;
+//export default Contact;
+//<<<<<<< HEAD
 // Jitesh
 // SAINI
+//=======
+//a
+//b
+//c
+//d
+//>>>>>>> 6ba5b3845ddf1228227202fde10ecd8df2e3cfd5
