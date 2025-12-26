@@ -55,6 +55,7 @@ function Contact() {
     </div>
   );
 }
+export default Contact;
 //A
 //B
 //C
