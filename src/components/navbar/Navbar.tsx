@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Menu, MenuItem } from "../../ui/navbar-menu";
 import { cn } from "../../utils/cn";
 import "./Navbar.css";
-import pdf from "../../assets/Jitesh_Saini.pdf";
+import pdf from "../../assets/Jitesh_Resume.pdf";
 
 function Navbar({ active, setActive }: any) {
   function setActiveMenu(event: any) {
