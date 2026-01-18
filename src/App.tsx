@@ -2,7 +2,7 @@ import React from "react";
 //import logo from "./logo.svg";
 import "./App.css";
 import Layout from "./components/layout/Layout";
-import { TracingBeam } from "./ui/tracing-beam";
+//import { TracingBeam } from "./ui/tracing-beam";
 
 function App() {
   return (
