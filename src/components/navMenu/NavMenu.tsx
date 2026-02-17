@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./NavMenu.css";
-import pdf from "../../assets/Jitesh_Resume.pdf";
+import pdf from "../../assets/JiteshSaini_Resume.pdf";
 
 function NavMenu({ setActive }) {
   const [isOpen, setIsOpen] = useState(false);
