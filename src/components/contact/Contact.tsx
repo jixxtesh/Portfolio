@@ -56,5 +56,3 @@ function Contact() {
   );
 }
 export default Contact;
-//A
-//B
